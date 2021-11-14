@@ -1,0 +1,337 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Larish Neue';
+    src: url('../font/LarishNeueSemibold.woff') format('woff');
+    src: url('../font/Larish\ Neue\ Semibold.woff2') format('woff2');
+}
+
+body {
+    max-width: 1440px;
+    margin: 2% 2% 0 2%;
+     
+}
+
+header {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+background-color: black;
+color: white;
+
+.line {
+
+position: absolute;
+width: 1px;
+top: 0;
+left: 50%;
+height: 160px;
+background-color: rgb(128, 128, 128);   
+}
+.headline {
+grid-column: 2/3;
+text-align: center;
+padding-top: 35%
+}
+h1 {
+    font-size: 2rem;
+    padding-top: 3%;    
+}
+h2 {
+ font-size: 2rem;
+ padding-bottom: 3%;
+  color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;   
+}
+.logo {
+ grid-column: 1/2;  
+ text-align: center;
+ padding-top: 20%; 
+}
+.button {  
+    grid-column: 3/4; 
+      text-align: center;
+ padding-top: 20%; 
+}
+.click { 
+    border: 1px solid white;
+    color: white;
+    padding: 9px 18px;
+    background-color: black;  
+}
+}
+
+.section1 {
+background-color: black;
+color: white;
+
+padding-bottom: 15%;
+.article1 {
+padding: 4% 0 0% 15%;
+}
+.text {
+    font-size: 5rem;
+    width: 66%;
+    padding-bottom: 7%;    
+}
+.article2 {
+font-size: 3rem;
+line-height: 1.5;    
+}
+.mapsize {
+    width: 35%;
+    position: absolute;
+    right: 15%;
+    top: 105%;     
+}
+}
+
+.section2 {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+.bild1 {
+grid-column: 2/3;
+}
+.picture1 {
+    width: 25%; 
+    position: absolute;
+    top: 170%;
+    right: 10%;
+}
+}
+
+.section3 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);   
+.bild2 {
+grid-column: 1/2;  
+} 
+.picture3{
+    width: 65%;
+    padding: 45% 0 0 10%;
+}
+.central {
+    padding-top: 80%;
+    display: block;   
+}
+h2 {
+    font-size: 5rem;
+    width: 95%;
+}
+p{
+    font-size: 2rem;
+}
+.bild3 {
+grid-column: 3/4;
+}
+.picture4 {
+    width: 65%;
+    padding: 160% 0 0 35%;
+}
+}
+
+.section4 {
+display: grid;
+grid-template-columns: repeat(2, 1fr);  
+.bild3 {
+ grid-column: 1/2;   
+}
+.picture5 {
+width: 55%;   
+padding: 10% 0 0 25%; 
+}
+.bild4 {
+grid-column: 2/3; 
+}
+.picture6 {
+    width: 55%;
+    padding: 40% 0 0 5%; 
+    
+}
+}
+
+.section5 {
+display: grid;
+grid-template-columns: repeat(3, 1fr); 
+.bild4 {
+grid-column: 1/2;     
+}
+.picture6 {
+    width: 60%;
+    padding: 20% 0;
+}
+p {
+    padding: 20% 0 75% 0;
+    line-height: 2;
+    font-weight: bold;
+}
+.picture7 {
+    width: 30%;   
+position: absolute;
+top: 365%;
+right: 20%;
+}
+}
+
+
+.section6 {
+background-color: black;
+color: white; 
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+.golden {
+    grid-column: 1/2; 
+    padding: 14% 0 15% 11%;
+}
+h2 {
+    font-size: 5rem;
+    width: 30%;
+    
+}
+.golden2 {
+padding: 14% 0 140% 0;    
+}
+.p {
+    font-size: 2rem;
+    width: 80%;
+    padding-bottom: 4%;
+}
+
+}
+
+.section7 {
+display: grid;
+grid-template-columns: 1fr;
+.goldenbear {
+    width: 55%;
+    position: absolute;
+    top: 458%;
+    left: 8%;
+}
+.smallbear {
+    position: absolute;
+    width: 25%;
+    top: 485%;
+    left: 55%;
+}
+.circle {
+    position: absolute;
+    width: 23%;
+    top: 510%;
+    left: 65%;
+    z-index: -1;
+            animation-name: spin;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: 10s;
+}
+}
+
+@keyframes spin {
+ 0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }   
+}
+
+.section8 {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+.poppy {
+grid-column: 1/2; 
+    padding: 90% 0 15% 11%;    
+}
+h2 {
+font-size: 5rem;
+    width: 30%;    
+}
+.poppy2 {
+padding: 90% 0 40% 0;
+font-weight: bold;
+}
+p{
+    font-weight: bold;
+}
+.p2 {
+font-size: 2rem;
+    width: 82%;
+    padding-bottom: 4%;
+}
+}
+
+
+.section9 {
+display: grid;
+grid-template-columns: 1fr;
+padding-bottom: 10%;
+.pb{
+    width: 25%;
+    position: absolute;
+    top: 650%;
+    left: 15%;
+}
+.rose {
+    width: 60%;
+   padding-left: 30%;
+}
+}
+
+.section10 {
+display: grid;
+grid-template-columns: repeat(2, 1fr);  
+background-color: black;
+color: white;  
+.last {
+    padding: 14% 0 15% 11%;
+}
+.p3{
+    font-size: 2rem;
+    width: 65%;
+    padding: 5% 0;
+    font-weight: bold;
+}
+button {
+ border: 2px solid white;
+    color: white;
+    background-color: black;   
+    padding: 5% 8%;
+    font-size: 1rem;
+}
+.animation {
+    animation-name: anime;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 8s;
+            width: 45%;
+            top: 740%;
+            left: 60%;
+            position: absolute;
+            background: white;
+            -webkit-text-stroke: 2px black;
+            color: white;
+            font-size: 2rem;
+            z-index: 1;
+            transform: rotate(45deg);
+}
+img {
+    width: 5%;
+}
+.last2 {
+ padding: 14% 0 15% 11%;
+ line-height: 2;   
+}
+.last3 {
+    padding: 14% 0 15% 18%;
+}
+.last3 img {
+    width: 25%;
+}
+}
