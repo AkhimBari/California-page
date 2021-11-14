@@ -167,7 +167,7 @@ header .click {
 .section5 .picture7 {
   width: 30%;
   position: absolute;
-  top: 365%;
+  top: 363%;
   right: 20%;
 }
 
@@ -213,7 +213,7 @@ header .click {
 .section7 .circle {
   position: absolute;
   width: 23%;
-  top: 510%;
+  top: 505%;
   left: 65%;
   z-index: -1;
   animation-name: spin;
@@ -263,7 +263,7 @@ header .click {
 .section9 .pb {
   width: 25%;
   position: absolute;
-  top: 650%;
+  top: 640%;
   left: 15%;
 }
 .section9 .rose {
@@ -299,7 +299,7 @@ header .click {
   animation-direction: alternate;
   animation-duration: 8s;
   width: 45%;
-  top: 740%;
+  top: 736%;
   left: 60%;
   position: absolute;
   background: white;
@@ -614,7 +614,7 @@ header .click {
     animation-direction: alternate;
     animation-duration: 8s;
     width: 45%;
-    top: 593%;
+    top: 596%;
     left: 57%;
     position: absolute;
     background: white;
